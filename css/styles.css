@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    color: gray;
+    font-family: monospace;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: dimgray;
+    padding: 30px;
+    border: 1px solid gray;
+}
+
+h1 {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+h2 {
+    color: white;
+    font-size: 1.1rem;
+    margin-top: 25px;
+}
+
+p, li {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: white;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid gray;
+    margin: 20px 0;
+}
+
+.footer {
+    margin-top: 30px;
+    font-size: 0.8rem;
+    color: gray;
+    text-align: center;
+}
