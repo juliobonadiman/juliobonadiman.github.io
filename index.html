@@ -5,141 +5,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Julio Bonadiman - CPW</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
         body {
             background-color: black;
-            color: white;
-            font-family: 'Courier New', monospace;
-            line-height: 1.6;
+            color: gray;
+            font-family: monospace;
+            margin: 0;
             padding: 40px 20px;
-            min-height: 100vh;
         }
 
         .container {
-            max-width: 900px;
+            max-width: 600px;
             margin: 0 auto;
             background-color: dimgray;
-            padding: 40px;
-            border: 2px solid gray;
-        }
-
-        header {
-            margin-bottom: 40px;
-            border-bottom: 2px solid gray;
-            padding-bottom: 20px;
+            padding: 30px;
+            border: 1px solid gray;
         }
 
         h1 {
             color: white;
-            font-size: 2rem;
-            margin-bottom: 10px;
-            font-weight: bold;
-        }
-
-        .subtitle {
-            color: gray;
-            font-size: 0.95rem;
-            font-style: italic;
-        }
-
-        section {
-            margin-bottom: 35px;
+            font-size: 1.5rem;
+            margin-top: 0;
         }
 
         h2 {
             color: white;
-            font-size: 1.2rem;
-            margin-bottom: 15px;
-            font-weight: bold;
-            border-left: 3px solid gray;
-            padding-left: 10px;
+            font-size: 1.1rem;
+            margin-top: 25px;
         }
 
-        p {
-            color: white;
+        p, li {
             font-size: 0.95rem;
-            margin-bottom: 15px;
-            text-align: justify;
+            line-height: 1.5;
+            color: white;
         }
 
         ul {
-            list-style-position: inside;
-            margin-left: 20px;
-        }
-
-        li {
-            color: white;
-            font-size: 0.95rem;
-            margin-bottom: 10px;
-        }
-
-        li:before {
-            content: "▪ ";
-            color: gray;
-            margin-right: 8px;
-        }
-
-        footer {
-            border-top: 2px solid gray;
-            padding-top: 20px;
-            margin-top: 40px;
-            text-align: center;
-            color: gray;
-            font-size: 0.9rem;
+            padding-left: 20px;
         }
 
         hr {
-            border: none;
+            border: 0;
             border-top: 1px solid gray;
-            margin: 25px 0;
+            margin: 20px 0;
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 0.8rem;
+            color: gray;
+            text-align: center;
         }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <header>
-            <h1>Julio Cesar Bonadiman</h1>
-            <p class="subtitle">Estudante de Ciência da Computação no IFSUL | Técnico em TI e Eletrônica</p>
-        </header>
+        <h1>Julio Cesar Bonadiman</h1>
+        <p class="intro">Estudante de Ciencia da Computacao no IFSUL (Passo Fundo) e tecnico em TI e eletronica.</p>
 
-        <section>
-            <h2>// Sobre mim</h2>
-            <p>
-                Trabalho com computação, automação e hardware. Na rotina, costumo lidar com Linux, servidores caseiros,
-                redes e scripts em Python ou Bash. Gosto de explorar a fundo como as coisas funcionam e de encontrar
-                soluções práticas para problemas técnicos. A ideia deste site é juntar um pouco do que aprendi e do que
-                gosto de fazer.
-            </p>
-        </section>
+        <hr>
 
-        <section>
-            <h2>// Habilidades</h2>
-            <ul>
-                <li>Linux / WSL / DietPi</li>
-                <li>Docker e Containers</li>
-                <li>C++ e Python</li>
-                <li>Manutenção de Hardware e Eletrônica</li>
-            </ul>
-        </section>
+        <h2>// Sobre mim</h2>
+        <p>
+            Trabalho com computacao, automacao e hardware. Na rotina, costumo lidar com Linux, servidores caseiros, 
+            redes e scripts em Python ou Bash. A ideia deste site e juntar um pouco do que eu aprendi e gosto de fazer.
+        </p>
 
-        <section>
-            <h2>// Projeto de CPW</h2>
-            <p>
-                Este site foi desenvolvido para a disciplina de Construção de Páginas Web (CPW), seguindo a estrutura
-                mínima pedida: HTML, CSS separado, pasta de imagens e .gitignore. O projeto é publicado via GitHub Pages
-                e representa meu primeiro portfólio web como estudante de Ciência da Computação.
-            </p>
-        </section>
+        <h2>// Habilidades</h2>
+        <ul>
+            <li>Linux / WSL / DietPi</li>
+            <li>Docker e Containers</li>
+            <li>C++ e Python</li>
+            <li>Manutencao de Hardware e Eletronica</li>
+        </ul>
 
-        <footer>
-            <p>&copy; 2026 - Julio Cesar Bonadiman. Desenvolvido para CPW.</p>
-        </footer>
+        <h2>// Projeto de CPW</h2>
+        <p>
+            Este site foi desenvolvido para a disciplina de Construcao de Paginas Web, seguindo a estrutura 
+            proposta e publicado via GitHub Pages.
+        </p>
+
+        <div class="footer">
+            <p>&copy; 2026 - Julio Bonadiman</p>
+        </div>
     </div>
 
 </body>
